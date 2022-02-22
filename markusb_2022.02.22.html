@@ -66,14 +66,14 @@
             <div class="col-2"></div>
             <div class="col-4 c">
                 <p> EGÉRGOMB LENYOMVA – FELENGEDVE <br>KÉPVÁLTÁS</p>
-                <img src="kepek/pic_bulboff.gif" alt="" onmousedown="document.getElementById('demo')" onmouseup="document.getElementById('demo')">
+                <img src="kepek/pic_bulboff.gif" alt="" onmouseDown="on(this)" onmouseUp="out(this)" border="0">
                 <script>
 
-                    function mouseDown(x){
+                    function on(x){
                         x.src="kepek/pic.bulbon.gif"
                     }
 
-                    function mouseUp(x){
+                    function out(x){
                         x.src="kepek/pic.bulboff.gif"
                     }
 
